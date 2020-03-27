@@ -7,14 +7,14 @@ $smarty = new Smarty;
 
 if(isset($_SESSION["sesion_id_usuario"])){
 	$sesion = array("id_usuario" => $_SESSION["sesion_id_usuario"],
-					"usuario" => $_SESSION["sesion_usuario"],
+					"usuario1" => $_SESSION["sesion_usuario1"],
 					"id_rol" =>  $_SESSION["sesion_id_rol"],
 					"rol" => $_SESSION["sesion_rol"],
 					);
 	$login = "NO";
 }else{
 	$sesion = array ("id_usuario" => "-",
-					  "usuario" => "-",
+					  "usuario1" => "-",
 					  "id_rol" => "-",
 					  "rol" => "-",
 					  );

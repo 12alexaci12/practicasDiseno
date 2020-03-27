@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-03-05 22:46:02
-  from "C:\wamp64\www\Sis_aluformas_1\privada\templates\cuerpo.tpl" */
+/* Smarty version 3.1.29, created on 2020-03-27 23:01:02
+  from "C:\wamp64\www\practicasDiseno\Sis_aluformas_1\privada\templates\cuerpo.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5e61812abb3682_43896288',
+  'unifunc' => 'content_5e7e85aebd4e88_62957541',
   'file_dependency' => 
   array (
-    'ddecdcd515c080e9a82496cd1b6b8093b6ced8df' => 
+    '898aec404f518ef5dc5149c332d9a84886c77e92' => 
     array (
-      0 => 'C:\\wamp64\\www\\Sis_aluformas_1\\privada\\templates\\cuerpo.tpl',
-      1 => 1583440446,
+      0 => 'C:\\wamp64\\www\\practicasDiseno\\Sis_aluformas_1\\privada\\templates\\cuerpo.tpl',
+      1 => 1583452616,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5e61812abb3682_43896288 ($_smarty_tpl) {
+function content_5e7e85aebd4e88_62957541 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
  	<head>
@@ -29,7 +29,7 @@ function content_5e61812abb3682_43896288 ($_smarty_tpl) {
  <body>
  		<form action="claves/" method="post" target="cuerpo">
  		<?php if ($_smarty_tpl->tpl_vars['nick']->value == '') {?>
- 			<table width="25%" align="center" border="1">
+ 			<table width="15%" align="center" border="1">
  				<tr>
  					<th align="center" colspan="2">Ingresar al Sistema</th>
  				</tr>

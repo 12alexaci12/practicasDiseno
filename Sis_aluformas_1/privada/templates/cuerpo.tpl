@@ -5,7 +5,7 @@
  <body>
  		<form action="claves/" method="post" target="cuerpo">
  		{if $nick == ""}
- 			<table width="25%" align="center" border="1">
+ 			<table width="15%" align="center" border="1">
  				<tr>
  					<th align="center" colspan="2">Ingresar al Sistema</th>
  				</tr>

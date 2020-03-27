@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-03-05 20:16:45
+/* Smarty version 3.1.29, created on 2020-03-27 18:29:04
   from "C:\wamp64\www\Sis_internet_1\privada\templates\menu_sup.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5e615e2da581d3_60848957',
+  'unifunc' => 'content_5e7e45f0071a41_69767894',
   'file_dependency' => 
   array (
     '691e7144e255e4b5835502a41200cda5de98b357' => 
     array (
       0 => 'C:\\wamp64\\www\\Sis_internet_1\\privada\\templates\\menu_sup.tpl',
-      1 => 1583439402,
+      1 => 1583994078,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5e615e2da581d3_60848957 ($_smarty_tpl) {
+function content_5e7e45f0071a41_69767894 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,7 +39,7 @@ function content_5e615e2da581d3_60848957 ($_smarty_tpl) {
         </td>
       </tr>
       <tr>
-        <th>Usuario:<?php echo $_smarty_tpl->tpl_vars['sesion']->value['usuario'];?>
+        <th>Usuario:<?php echo $_smarty_tpl->tpl_vars['sesion']->value['usuario1'];?>
 </th>
         <th>Rol:<?php echo $_smarty_tpl->tpl_vars['sesion']->value['rol'];?>
 </th>
