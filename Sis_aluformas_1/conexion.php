@@ -1,12 +1,11 @@
 <?php
-require_once("adodb/adodb.inc.php");
+require_once("adodb5/adodb.inc.php");
 
 $direc_css = "../css/colores.css";
-
 $conServidor = "localhost";
 $conUsuario = "root";
 $conClave = "";
-$conBasededatos = "bd_internet";
+$conBasededatos = "bd_aluformas";
 
 $db = ADONewConnection("mysqli");
 
