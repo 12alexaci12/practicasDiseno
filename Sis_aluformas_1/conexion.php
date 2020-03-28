@@ -1,5 +1,5 @@
 <?php
-require_once("adodb5/adodb.inc.php");
+require_once("adodb/adodb.inc.php");
 
 $direc_css = "../css/colores.css";
 $conServidor = "localhost";
